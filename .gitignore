@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Loom's local run/model store — don't commit your training artifacts
+.loom/
+
+.DS_Store
+.vscode/
+.idea/
